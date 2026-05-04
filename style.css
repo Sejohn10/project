@@ -1,0 +1,117 @@
+
+body {
+font-family: Arial, sans-serif;
+background: #f4f4f4;
+display: flex;
+
+justify-content: center;
+
+}
+
+.container {
+width: 1000px;
+background: #fff;
+padding: 20px;
+margin-top: 20px;
+padding-top: 0px;
+box-shadow: 0 0 30px rgba(255, 0, 0, 0.9);
+border-radius: 10px;
+}
+
+h1 {
+text-align: center;
+background-image:url(bg.jpg);
+padding: 40px;
+font-size: 50px;
+font-family: serif;
+margin-top: 20px;
+}
+
+.inc-exp {
+/* display: flex;
+justify-content: space-between; */
+margin: 20px 0;
+}
+
+.money {
+font-size: 18px;
+}
+
+.plus {
+color: green;
+}
+
+.minus {
+color: red;
+}
+
+form input {
+/* width: 420px; */
+/* padding: 35px; */
+/* margin: 6px 1.5px; */
+margin:1%;
+width:97%;
+height: 90px;
+font-size: larger;
+}
+
+.btn {
+width: 100%;
+padding: 40px;
+margin:1%;
+background: #333;
+color: white;
+border: none;
+cursor: pointer;
+font-size: larger;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+background: #f9f9f9;
+padding: 10px;
+margin: 10px 0;
+display: flex;
+justify-content: space-between;
+border-right: 5px solid;
+}
+
+li.plus {
+border-color: green;
+}
+
+li.minus {
+border-color: red;
+}
+
+.delete-btn {
+background: red;
+color: white;
+border: none;
+cursor: pointer;
+padding: 3px 7px;
+}
+
+
+@media (min-width:600px){
+.inc-exp {
+display: flex;
+justify-content: space-between;
+margin: 20px 0;
+}
+
+form input {
+margin:1%;
+width:46%;}
+
+}
+
+
+
+
+
+
